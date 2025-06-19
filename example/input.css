@@ -1,0 +1,15 @@
+@layer base, theme, utilities, components;
+
+@import "tailwindcss";
+@plugin "../dist/index.js";
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-primary-dark: #1d4ed8;
+
+  --spacing-4: 1.2rem;
+
+  /* Custom colors for the example-color match utility */
+  --example-color-primary: #ff5733; /* Customized primary color */
+  --example-color-accent: #5733ff; /* Customized accent color */
+}
